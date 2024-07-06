@@ -9,7 +9,7 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
   app.enableCors({
-    credentials: true,
+    credentials: false,
     origin: process.env.FRONTEND_URL,
     exposedHeaders: ['filename'],
     allowedHeaders: [
