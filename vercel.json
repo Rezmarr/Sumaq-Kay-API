@@ -1,5 +1,12 @@
 {
     "version": 2,
+    "env": {
+        "DATABASE_URI": "@DATABASE_URI",
+        "CONTEXT": "@CONTEXT",
+        "SECRET": "@SECRET",
+        "GEMINI_API_KEY": "@GEMINI_API_KEY",
+        "FRONTEND_URL": "@FRONTEND_URL"
+    },
     "builds": [
         {
             "src": "src/main.ts",
