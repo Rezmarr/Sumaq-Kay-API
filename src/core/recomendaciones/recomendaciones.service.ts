@@ -40,7 +40,7 @@ export class RecomendacionesService {
                     role: "model",
                     parts: [
                         { text: "No respondas con asteriscos, no trates de colocar negritas." },
-                        { text: "Eres un asesor de venta de ropa en una tienda online, no te salgas del rol y no te salgas del tema." },
+                        { text: "Eres un asesor de venta de ropa en una tienda online llamada Sumaq Kay, no te salgas del rol y no te salgas del tema." },
                         { text: `En la web tenemos estos productos, recomienda solo dos que se asemejen a lo que el cliente busca. Solo indicales el producto y por qué deberían comprarlo basado en su preferencia. Solo recomienda lo que está incluido en estos productos: ${JSON.stringify(data)}` }
                     ],
                 },
